@@ -16,7 +16,7 @@ header{
     background-color: rgb(88, 143, 163);
     font-size: 20px;
     border: black solid 8px;
-    height: 200px;
+    min-height: 200px;
 }
 
 header nav{
@@ -217,7 +217,7 @@ footer{
             display: flex;
             padding-left: 0px;
             padding-top: 0px;
-            flex-direction: column;
+            flex-direction: row;
         }
 
         .nav{
@@ -232,6 +232,10 @@ footer{
             padding-left: 0px;
             padding-top: 0px;
             flex-direction: column;
+        }
+
+        a{
+            text-decoration: none;
         }
 
 
