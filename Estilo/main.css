@@ -209,6 +209,24 @@ footer{
             margin-bottom: 40px;
         }
 
+        .navbar-expand-lg .navbar-nav{
+            flex-direction: row;
+        }
+
+        .navbar-nav{
+            display: flex;
+            padding-left: 0px;
+            padding-top: 0px;
+            flex-direction: column;
+        }
+
+        .nav{
+            display: flex;
+            flex-wrap: flex;
+            padding-left: 0px;
+            padding-bottom: 0px;
+        }
+
     
 }
 
