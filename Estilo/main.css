@@ -227,6 +227,14 @@ footer{
             padding-bottom: 0px;
         }
 
+        nav navbar-nav{
+            display: flex;
+            padding-left: 0px;
+            padding-top: 0px;
+            flex-direction: column;
+        }
+
+
     
 }
 
